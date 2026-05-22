@@ -290,6 +290,8 @@ const calculators = Object.entries(calculatorNames).flatMap(([category, names]) 
     return {
       slug,
       name,
+      title: name,
+      seoTitle: name,
       category,
       categoryName,
       type: base.type,
@@ -298,6 +300,11 @@ const calculators = Object.entries(calculatorNames).flatMap(([category, names]) 
       featured: index < 9,
       updated: "2026-05-21",
       description: `${name} for quick ${categoryName.toLowerCase()} estimates with clear formulas, worked examples, and copyable results.`,
+      metaDescription: `${name} for quick ${categoryName.toLowerCase()} estimates with clear formulas, worked examples, and copyable results.`,
+      output: { label: "Estimated result", unit: base.unit },
+      relatedCalculators: [],
+      relatedArticles: [],
+      disclaimerType: category === "finance" ? "financial" : category === "health" ? "health" : category === "time" ? "time" : "general",
       formula:
         category === "construction"
           ? "quantity = length x width x depth with waste allowance"
@@ -329,6 +336,13 @@ const calculators = Object.entries(calculatorNames).flatMap(([category, names]) 
   }),
 );
 
+for (const calculator of calculators) {
+  calculator.relatedCalculators = calculators
+    .filter((item) => item.category === calculator.category && item.slug !== calculator.slug)
+    .slice(0, 6)
+    .map((item) => item.slug);
+}
+
 const articles = Array.from({ length: 150 }, (_, index) => {
   const seed = articleSeeds[index % articleSeeds.length];
   const modifier = articleModifiers[Math.floor(index / articleSeeds.length) % articleModifiers.length];
@@ -340,9 +354,11 @@ const articles = Array.from({ length: 150 }, (_, index) => {
   return {
     slug: slugify(title),
     title,
+    seoTitle: title,
     category,
     updated: "2026-05-21",
     description: `A concise, practical guide to ${seed} with formulas, examples, and planning notes.`,
+    metaDescription: `A concise, practical guide to ${seed} with formulas, examples, and planning notes.`,
     readingMinutes: 4,
     relatedCalculator: calculators.filter((calc) => calc.category === category)[index % 20]?.slug ?? calculators[index % calculators.length].slug,
   };
@@ -379,11 +395,13 @@ write(
   "package.json",
   JSON.stringify(
     {
+      author: "Daniel Victor Nunez-Regueiro",
       scripts: {
         dev: "next dev",
         build: "next build",
         start: "next start",
-        lint: "next lint",
+        lint: "eslint scripts --ext .mjs",
+        typecheck: "tsc --noEmit",
         "generate:content": "node scripts/scaffold.mjs",
         "validate:metadata": "tsx scripts/validate-metadata.ts",
         "check:links": "tsx scripts/check-internal-links.ts",
@@ -405,10 +423,13 @@ write(
         autoprefixer: "^10.4.20",
         eslint: "^9.17.0",
         "eslint-config-next": "^15.0.0",
-        postcss: "^8.4.49",
+        postcss: "^8.5.10",
         tailwindcss: "^3.4.17",
         tsx: "^4.19.2",
         typescript: "^5.7.2",
+      },
+      overrides: {
+        postcss: "^8.5.10",
       },
     },
     null,
@@ -531,11 +552,14 @@ a {
 
 write(
   "data/site.ts",
-  `export const site = {
+  `// CalcForge was written and created by Daniel Victor Nunez-Regueiro.
+export const site = {
   name: "CalcForge",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://calcforge.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://calcforge-nine.vercel.app",
   description: "Fast, transparent calculators and practical guides for construction, finance, health, math, conversions, and time planning.",
-  author: "CalcForge Editorial Team",
+  creator: "Daniel Victor Nunez-Regueiro",
+  author: "Daniel Victor Nunez-Regueiro",
+  organizationName: "CalcForge",
   locale: "en_US",
 };
 `,
@@ -615,12 +639,20 @@ export const articlesByCategory = (category: string) =>
   articles.filter((article) => article.category === category);
 
 export const relatedCalculators = (calculator: Calculator, limit = 6) =>
-  calculators
-    .filter((item) => item.category === calculator.category && item.slug !== calculator.slug)
-    .slice(0, limit);
+  (calculator.relatedCalculators.length
+    ? calculator.relatedCalculators
+        .map((slug) => calculators.find((item) => item.slug === slug))
+        .filter((item): item is Calculator => Boolean(item))
+    : calculators.filter((item) => item.category === calculator.category && item.slug !== calculator.slug)
+  ).slice(0, limit);
 
 export const relatedArticlesForCalculator = (calculator: Calculator, limit = 4) =>
-  articles.filter((article) => article.category === calculator.category).slice(0, limit);
+  (calculator.relatedArticles.length
+    ? calculator.relatedArticles
+        .map((slug) => articles.find((article) => article.slug === slug))
+        .filter((article): article is Article => Boolean(article))
+    : articles.filter((article) => article.relatedCalculator === calculator.slug || article.category === calculator.category)
+  ).slice(0, limit);
 
 export const relatedArticles = (article: Article, limit = 6) =>
   articles.filter((item) => item.category === article.category && item.slug !== article.slug).slice(0, limit);
@@ -675,7 +707,7 @@ export function calculate(type: string, slug: string, values: CalculationInput) 
 
   if (type === "conversion") return values.value * (conversionFactors[slug] ?? 1);
 
-  if (type === "construction") {
+  if (type === "material") {
     const cubicFeet = values.length * values.width * (values.depth / 12);
     return cubicFeet * (1 + values.waste / 100);
   }
@@ -752,8 +784,8 @@ export const articleSchema = (article: Article, url: string) => ({
   description: article.description,
   dateModified: article.updated,
   datePublished: article.updated,
-  author: { "@type": "Organization", name: site.author },
-  publisher: { "@type": "Organization", name: site.name },
+  author: { "@type": "Person", name: site.creator },
+  publisher: { "@type": "Organization", name: site.organizationName, url: site.url },
   mainEntityOfPage: url,
 });
 `,
@@ -776,7 +808,7 @@ export function AdSlot({ id, label = "Advertisement", className = "" }: AdSlotPr
       data-ads-enabled={enabled}
       aria-label={label}
     >
-      {enabled ? label : "Ad space reserved"}
+      {label}
     </div>
   );
 }
@@ -790,7 +822,7 @@ write(
 export function AuthorBox() {
   return (
     <section className="rounded border border-line bg-white p-5 text-sm dark:border-zinc-800 dark:bg-zinc-900">
-      <h2 className="text-base font-semibold">Reviewed by {site.author}</h2>
+      <h2 className="text-base font-semibold">Created by {site.creator}</h2>
       <p className="mt-2 text-zinc-700 dark:text-zinc-300">
         CalcForge pages are written to show inputs, assumptions, formulas, and limitations clearly. We avoid fabricated credentials and update evergreen pages when formulas or user needs change.
       </p>
@@ -1380,7 +1412,7 @@ export default function GlossaryTermPage({ params }: { params: { slug: string } 
 
 const staticPages = {
   about: ["About CalcForge", "CalcForge is a utility website focused on transparent formulas, practical examples, and fast pages."],
-  contact: ["Contact", "For corrections, suggestions, or partnership inquiries, email hello@example.com. Replace this address before launch."],
+  contact: ["Contact", "Contact note for CalcForge corrections, suggestions, and calculator feedback."],
   privacy: ["Privacy Policy", "CalcForge is designed as a static site. Advertising, analytics, and affiliate partners may use cookies when enabled by the site owner."],
   terms: ["Terms", "CalcForge is provided for informational use. You are responsible for verifying results before making decisions."],
   disclaimer: ["Disclaimer", "Calculator results are estimates and are not financial, medical, legal, engineering, or professional advice."],
@@ -1559,7 +1591,7 @@ The static export is generated in \`out/\`.
 1. Push this repository to GitHub.
 2. In Vercel, choose **Add New Project** and import the repository.
 3. Set **Framework Preset** to Next.js.
-4. Add \`NEXT_PUBLIC_SITE_URL=https://your-domain.com\`.
+4. Keep \`NEXT_PUBLIC_SITE_URL=https://calcforge-nine.vercel.app\`, or omit it to use the built-in free Vercel URL.
 5. Optional: add \`NEXT_PUBLIC_ENABLE_ADS=true\` after ad approval.
 6. Deploy.
 
@@ -1583,7 +1615,7 @@ CalcForge uses topic clusters around calculators, guides, and glossary definitio
 Principles:
 
 - Keep each calculator useful on its own with an interactive tool, formula, example, FAQs, and limitations.
-- Avoid location doorway pages, fake reviews, fake credentials, and fabricated statistics.
+- Avoid location doorway pages, fabricated endorsements, fake credentials, and fabricated statistics.
 - Use stable evergreen URLs.
 - Update pages when formulas, assumptions, or user expectations change.
 - Keep article pages concise and tied to a practical task.

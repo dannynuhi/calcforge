@@ -20,6 +20,8 @@ export const calculatorSchema = (calculator: Calculator, url: string) => ({
   operatingSystem: "Any",
   url,
   description: calculator.description,
+  creator: { "@type": "Person", name: site.creator },
+  publisher: { "@type": "Organization", name: site.organizationName, url: site.url },
   offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
 });
 
@@ -40,7 +42,7 @@ export const articleSchema = (article: Article, url: string) => ({
   description: article.description,
   dateModified: article.updated,
   datePublished: article.updated,
-  author: { "@type": "Organization", name: site.author },
-  publisher: { "@type": "Organization", name: site.name },
+  author: { "@type": "Person", name: site.creator },
+  publisher: { "@type": "Organization", name: site.organizationName, url: site.url },
   mainEntityOfPage: url,
 });

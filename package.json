@@ -1,12 +1,19 @@
 {
+  "author": "Daniel Victor Nunez-Regueiro",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
     "generate:content": "node scripts/scaffold.mjs",
+    "validate:urls": "tsx scripts/site-audit.ts urls",
     "validate:metadata": "tsx scripts/validate-metadata.ts",
     "check:links": "tsx scripts/check-internal-links.ts",
+    "audit:seo": "tsx scripts/site-audit.ts seo",
+    "audit:content": "tsx scripts/site-audit.ts content",
+    "audit:sitemaps": "tsx scripts/site-audit.ts sitemaps",
+    "verify": "npm run validate:urls && npm run validate:metadata && npm run check:links && npm run audit:content && npm run audit:seo && npm run build && npm run audit:sitemaps",
     "regenerate:sitemap": "next build"
   },
   "dependencies": {
@@ -27,10 +34,10 @@
     "eslint-config-next": "^15.0.0",
     "postcss": "^8.5.10",
     "tailwindcss": "^3.4.17",
-      "tsx": "^4.19.2",
-      "typescript": "^5.7.2"
-    },
-    "overrides": {
-      "postcss": "^8.5.10"
-    }
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
   }
+}

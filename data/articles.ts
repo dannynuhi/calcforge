@@ -6,61 +6,75 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "concrete"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Beginner Guide",
+    "metaDescription": "How Much Concrete Do I Need Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-beginner-guide",
     "title": "How To Estimate Roofing Materials Beginner Guide",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "loan"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Beginner Guide",
+    "metaDescription": "How To Estimate Roofing Materials Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-beginner-guide",
     "title": "How Mortgage Interest Works Beginner Guide",
-    "category": "health",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "macro"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Beginner Guide",
+    "metaDescription": "How Mortgage Interest Works Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-beginner-guide",
     "title": "Bmi Explained Beginner Guide",
-    "category": "math",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "fraction"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Beginner Guide",
+    "metaDescription": "Bmi Explained Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-beginner-guide",
     "title": "How To Calculate Roi Beginner Guide",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "celsius-to-fahrenheit"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Beginner Guide",
+    "metaDescription": "How To Calculate Roi Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-beginner-guide",
     "title": "How To Estimate Paint Coverage Beginner Guide",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "time-zone"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Beginner Guide",
+    "metaDescription": "How To Estimate Paint Coverage Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-beginner-guide",
     "title": "How To Calculate Compound Interest Beginner Guide",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "gravel"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Beginner Guide",
+    "metaDescription": "How To Calculate Compound Interest Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-beginner-guide",
@@ -69,106 +83,130 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "debt-payoff"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Beginner Guide",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-beginner-guide",
     "title": "How To Convert Inches To Centimeters Beginner Guide",
-    "category": "health",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ideal-weight"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Beginner Guide",
+    "metaDescription": "How To Convert Inches To Centimeters Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-beginner-guide",
     "title": "How To Calculate Business Days Beginner Guide",
-    "category": "math",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "area"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Beginner Guide",
+    "metaDescription": "How To Calculate Business Days Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-beginner-guide",
     "title": "How To Estimate Gravel For A Driveway Beginner Guide",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "yards-to-meters"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Beginner Guide",
+    "metaDescription": "How To Estimate Gravel For A Driveway Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-beginner-guide",
     "title": "How To Calculate Tile Waste Beginner Guide",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "months-between-dates"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Beginner Guide",
+    "metaDescription": "How To Calculate Tile Waste Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-beginner-guide",
     "title": "How To Choose A Loan Term Beginner Guide",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paver"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Beginner Guide",
+    "metaDescription": "How To Choose A Loan Term Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-beginner-guide",
     "title": "How Calorie Needs Are Estimated Beginner Guide",
-    "category": "finance",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "present-value"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Beginner Guide",
+    "metaDescription": "How Calorie Needs Are Estimated Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-beginner-guide",
     "title": "How To Calculate Percentages Quickly Beginner Guide",
-    "category": "health",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sleep"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Beginner Guide",
+    "metaDescription": "How To Calculate Percentages Quickly Beginner Guide: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-formula-and-example",
     "title": "How Much Concrete Do I Need Formula And Example",
-    "category": "math",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "exponent"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Formula And Example",
+    "metaDescription": "How Much Concrete Do I Need Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-formula-and-example",
     "title": "How To Estimate Roofing Materials Formula And Example",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "hectares-to-acres"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Formula And Example",
+    "metaDescription": "How To Estimate Roofing Materials Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-formula-and-example",
     "title": "How Mortgage Interest Works Formula And Example",
-    "category": "time",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "school-days"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Formula And Example",
+    "metaDescription": "How Mortgage Interest Works Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-formula-and-example",
     "title": "Bmi Explained Formula And Example",
-    "category": "construction",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sand"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Formula And Example",
+    "metaDescription": "Bmi Explained Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-formula-and-example",
@@ -177,97 +215,119 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "tip"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Formula And Example",
+    "metaDescription": "How To Calculate Roi Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-formula-and-example",
     "title": "How To Estimate Paint Coverage Formula And Example",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmi"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Formula And Example",
+    "metaDescription": "How To Estimate Paint Coverage Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-formula-and-example",
     "title": "How To Calculate Compound Interest Formula And Example",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ratio"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Formula And Example",
+    "metaDescription": "How To Calculate Compound Interest Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-formula-and-example",
     "title": "How To Plan A Debt Payoff Schedule Formula And Example",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pounds-to-kg"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Formula And Example",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-formula-and-example",
     "title": "How To Convert Inches To Centimeters Formula And Example",
-    "category": "time",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "business-days"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Formula And Example",
+    "metaDescription": "How To Convert Inches To Centimeters Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-formula-and-example",
     "title": "How To Calculate Business Days Formula And Example",
-    "category": "construction",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "flooring"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Formula And Example",
+    "metaDescription": "How To Calculate Business Days Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-formula-and-example",
     "title": "How To Estimate Gravel For A Driveway Formula And Example",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "investment-return"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Formula And Example",
+    "metaDescription": "How To Estimate Gravel For A Driveway Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-formula-and-example",
     "title": "How To Calculate Tile Waste Formula And Example",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmr"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Formula And Example",
+    "metaDescription": "How To Calculate Tile Waste Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-formula-and-example",
     "title": "How To Choose A Loan Term Formula And Example",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "median"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Formula And Example",
+    "metaDescription": "How To Choose A Loan Term Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-formula-and-example",
     "title": "How Calorie Needs Are Estimated Formula And Example",
-    "category": "conversion",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "cups-to-milliliters"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Formula And Example",
+    "metaDescription": "How Calorie Needs Are Estimated Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-formula-and-example",
     "title": "How To Calculate Percentages Quickly Formula And Example",
-    "category": "time",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "days-until"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Formula And Example",
+    "metaDescription": "How To Calculate Percentages Quickly Formula And Example: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-common-mistakes",
@@ -276,61 +336,75 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "fence"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Common Mistakes",
+    "metaDescription": "How Much Concrete Do I Need Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-common-mistakes",
     "title": "How To Estimate Roofing Materials Common Mistakes",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "simple-interest"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Common Mistakes",
+    "metaDescription": "How To Estimate Roofing Materials Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-common-mistakes",
     "title": "How Mortgage Interest Works Common Mistakes",
-    "category": "health",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "carbohydrate-intake"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Common Mistakes",
+    "metaDescription": "How Mortgage Interest Works Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-common-mistakes",
     "title": "Bmi Explained Common Mistakes",
-    "category": "math",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pythagorean-theorem"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Common Mistakes",
+    "metaDescription": "Bmi Explained Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-common-mistakes",
     "title": "How To Calculate Roi Common Mistakes",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "meters-to-feet"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Common Mistakes",
+    "metaDescription": "How To Calculate Roi Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-common-mistakes",
     "title": "How To Estimate Paint Coverage Common Mistakes",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "time-card"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Common Mistakes",
+    "metaDescription": "How To Estimate Paint Coverage Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-common-mistakes",
     "title": "How To Calculate Compound Interest Common Mistakes",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "wallpaper"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Common Mistakes",
+    "metaDescription": "How To Calculate Compound Interest Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-common-mistakes",
@@ -339,106 +413,130 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paycheck"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Common Mistakes",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-common-mistakes",
     "title": "How To Convert Inches To Centimeters Common Mistakes",
-    "category": "health",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "body-surface-area"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Common Mistakes",
+    "metaDescription": "How To Convert Inches To Centimeters Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-common-mistakes",
     "title": "How To Calculate Business Days Common Mistakes",
-    "category": "math",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "combination"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Common Mistakes",
+    "metaDescription": "How To Calculate Business Days Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-common-mistakes",
     "title": "How To Estimate Gravel For A Driveway Common Mistakes",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "inches-to-cm"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Common Mistakes",
+    "metaDescription": "How To Estimate Gravel For A Driveway Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-common-mistakes",
     "title": "How To Calculate Tile Waste Common Mistakes",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "date-difference"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Common Mistakes",
+    "metaDescription": "How To Calculate Tile Waste Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-common-mistakes",
     "title": "How To Choose A Loan Term Common Mistakes",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paint"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Common Mistakes",
+    "metaDescription": "How To Choose A Loan Term Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-common-mistakes",
     "title": "How Calorie Needs Are Estimated Common Mistakes",
-    "category": "finance",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "retirement"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Common Mistakes",
+    "metaDescription": "How Calorie Needs Are Estimated Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-common-mistakes",
     "title": "How To Calculate Percentages Quickly Common Mistakes",
-    "category": "health",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "protein-intake"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Common Mistakes",
+    "metaDescription": "How To Calculate Percentages Quickly Common Mistakes: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-quick-worksheet",
     "title": "How Much Concrete Do I Need Quick Worksheet",
-    "category": "math",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "probability"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Quick Worksheet",
+    "metaDescription": "How Much Concrete Do I Need Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-quick-worksheet",
     "title": "How To Estimate Roofing Materials Quick Worksheet",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "miles-to-kilometers"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Quick Worksheet",
+    "metaDescription": "How To Estimate Roofing Materials Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-quick-worksheet",
     "title": "How Mortgage Interest Works Quick Worksheet",
-    "category": "time",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "countdown"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Quick Worksheet",
+    "metaDescription": "How Mortgage Interest Works Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-quick-worksheet",
     "title": "Bmi Explained Quick Worksheet",
-    "category": "construction",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "asphalt"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Quick Worksheet",
+    "metaDescription": "Bmi Explained Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-quick-worksheet",
@@ -447,97 +545,119 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "credit-card-payoff"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Quick Worksheet",
+    "metaDescription": "How To Calculate Roi Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-quick-worksheet",
     "title": "How To Estimate Paint Coverage Quick Worksheet",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pace"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Quick Worksheet",
+    "metaDescription": "How To Estimate Paint Coverage Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-quick-worksheet",
     "title": "How To Calculate Compound Interest Quick Worksheet",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "circle"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Quick Worksheet",
+    "metaDescription": "How To Calculate Compound Interest Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-quick-worksheet",
     "title": "How To Plan A Debt Payoff Schedule Quick Worksheet",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "kilograms-to-pounds"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Quick Worksheet",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-quick-worksheet",
     "title": "How To Convert Inches To Centimeters Quick Worksheet",
-    "category": "time",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "meeting-time"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Quick Worksheet",
+    "metaDescription": "How To Convert Inches To Centimeters Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-quick-worksheet",
     "title": "How To Calculate Business Days Quick Worksheet",
-    "category": "construction",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "stud"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Quick Worksheet",
+    "metaDescription": "How To Calculate Business Days Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-quick-worksheet",
     "title": "How To Estimate Gravel For A Driveway Quick Worksheet",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "emergency-fund"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Quick Worksheet",
+    "metaDescription": "How To Estimate Gravel For A Driveway Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-quick-worksheet",
     "title": "How To Calculate Tile Waste Quick Worksheet",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "waist-to-hip-ratio"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Quick Worksheet",
+    "metaDescription": "How To Calculate Tile Waste Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-quick-worksheet",
     "title": "How To Choose A Loan Term Quick Worksheet",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "modulo"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Quick Worksheet",
+    "metaDescription": "How To Choose A Loan Term Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-quick-worksheet",
     "title": "How Calorie Needs Are Estimated Quick Worksheet",
-    "category": "conversion",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "square-meters-to-square-feet"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Quick Worksheet",
+    "metaDescription": "How Calorie Needs Are Estimated Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-quick-worksheet",
     "title": "How To Calculate Percentages Quickly Quick Worksheet",
-    "category": "time",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "leap-year"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Quick Worksheet",
+    "metaDescription": "How To Calculate Percentages Quickly Quick Worksheet: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-planning-checklist",
@@ -546,61 +666,75 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "concrete"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Planning Checklist",
+    "metaDescription": "How Much Concrete Do I Need Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-planning-checklist",
     "title": "How To Estimate Roofing Materials Planning Checklist",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "loan"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Planning Checklist",
+    "metaDescription": "How To Estimate Roofing Materials Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-planning-checklist",
     "title": "How Mortgage Interest Works Planning Checklist",
-    "category": "health",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "macro"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Planning Checklist",
+    "metaDescription": "How Mortgage Interest Works Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-planning-checklist",
     "title": "Bmi Explained Planning Checklist",
-    "category": "math",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "fraction"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Planning Checklist",
+    "metaDescription": "Bmi Explained Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-planning-checklist",
     "title": "How To Calculate Roi Planning Checklist",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "celsius-to-fahrenheit"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Planning Checklist",
+    "metaDescription": "How To Calculate Roi Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-planning-checklist",
     "title": "How To Estimate Paint Coverage Planning Checklist",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "time-zone"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Planning Checklist",
+    "metaDescription": "How To Estimate Paint Coverage Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-planning-checklist",
     "title": "How To Calculate Compound Interest Planning Checklist",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "gravel"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Planning Checklist",
+    "metaDescription": "How To Calculate Compound Interest Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-planning-checklist",
@@ -609,106 +743,130 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "debt-payoff"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Planning Checklist",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-planning-checklist",
     "title": "How To Convert Inches To Centimeters Planning Checklist",
-    "category": "health",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ideal-weight"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Planning Checklist",
+    "metaDescription": "How To Convert Inches To Centimeters Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-planning-checklist",
     "title": "How To Calculate Business Days Planning Checklist",
-    "category": "math",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "area"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Planning Checklist",
+    "metaDescription": "How To Calculate Business Days Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-planning-checklist",
     "title": "How To Estimate Gravel For A Driveway Planning Checklist",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "yards-to-meters"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Planning Checklist",
+    "metaDescription": "How To Estimate Gravel For A Driveway Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-planning-checklist",
     "title": "How To Calculate Tile Waste Planning Checklist",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "months-between-dates"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Planning Checklist",
+    "metaDescription": "How To Calculate Tile Waste Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-planning-checklist",
     "title": "How To Choose A Loan Term Planning Checklist",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paver"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Planning Checklist",
+    "metaDescription": "How To Choose A Loan Term Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-planning-checklist",
     "title": "How Calorie Needs Are Estimated Planning Checklist",
-    "category": "finance",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "present-value"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Planning Checklist",
+    "metaDescription": "How Calorie Needs Are Estimated Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-planning-checklist",
     "title": "How To Calculate Percentages Quickly Planning Checklist",
-    "category": "health",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sleep"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Planning Checklist",
+    "metaDescription": "How To Calculate Percentages Quickly Planning Checklist: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-practical-examples",
     "title": "How Much Concrete Do I Need Practical Examples",
-    "category": "math",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "exponent"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Practical Examples",
+    "metaDescription": "How Much Concrete Do I Need Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-practical-examples",
     "title": "How To Estimate Roofing Materials Practical Examples",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "hectares-to-acres"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Practical Examples",
+    "metaDescription": "How To Estimate Roofing Materials Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-practical-examples",
     "title": "How Mortgage Interest Works Practical Examples",
-    "category": "time",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "school-days"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Practical Examples",
+    "metaDescription": "How Mortgage Interest Works Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-practical-examples",
     "title": "Bmi Explained Practical Examples",
-    "category": "construction",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sand"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Practical Examples",
+    "metaDescription": "Bmi Explained Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-practical-examples",
@@ -717,97 +875,119 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "tip"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Practical Examples",
+    "metaDescription": "How To Calculate Roi Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-practical-examples",
     "title": "How To Estimate Paint Coverage Practical Examples",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmi"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Practical Examples",
+    "metaDescription": "How To Estimate Paint Coverage Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-practical-examples",
     "title": "How To Calculate Compound Interest Practical Examples",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ratio"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Practical Examples",
+    "metaDescription": "How To Calculate Compound Interest Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-practical-examples",
     "title": "How To Plan A Debt Payoff Schedule Practical Examples",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pounds-to-kg"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Practical Examples",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-practical-examples",
     "title": "How To Convert Inches To Centimeters Practical Examples",
-    "category": "time",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "business-days"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Practical Examples",
+    "metaDescription": "How To Convert Inches To Centimeters Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-practical-examples",
     "title": "How To Calculate Business Days Practical Examples",
-    "category": "construction",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "flooring"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Practical Examples",
+    "metaDescription": "How To Calculate Business Days Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-practical-examples",
     "title": "How To Estimate Gravel For A Driveway Practical Examples",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "investment-return"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Practical Examples",
+    "metaDescription": "How To Estimate Gravel For A Driveway Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-practical-examples",
     "title": "How To Calculate Tile Waste Practical Examples",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmr"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Practical Examples",
+    "metaDescription": "How To Calculate Tile Waste Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-practical-examples",
     "title": "How To Choose A Loan Term Practical Examples",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "median"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Practical Examples",
+    "metaDescription": "How To Choose A Loan Term Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-practical-examples",
     "title": "How Calorie Needs Are Estimated Practical Examples",
-    "category": "conversion",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "cups-to-milliliters"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Practical Examples",
+    "metaDescription": "How Calorie Needs Are Estimated Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-practical-examples",
     "title": "How To Calculate Percentages Quickly Practical Examples",
-    "category": "time",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "days-until"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Practical Examples",
+    "metaDescription": "How To Calculate Percentages Quickly Practical Examples: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-estimation-method",
@@ -816,61 +996,75 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "fence"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Estimation Method",
+    "metaDescription": "How Much Concrete Do I Need Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-estimation-method",
     "title": "How To Estimate Roofing Materials Estimation Method",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "simple-interest"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Estimation Method",
+    "metaDescription": "How To Estimate Roofing Materials Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-estimation-method",
     "title": "How Mortgage Interest Works Estimation Method",
-    "category": "health",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "carbohydrate-intake"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Estimation Method",
+    "metaDescription": "How Mortgage Interest Works Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-estimation-method",
     "title": "Bmi Explained Estimation Method",
-    "category": "math",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pythagorean-theorem"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Estimation Method",
+    "metaDescription": "Bmi Explained Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-estimation-method",
     "title": "How To Calculate Roi Estimation Method",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "meters-to-feet"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Estimation Method",
+    "metaDescription": "How To Calculate Roi Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-estimation-method",
     "title": "How To Estimate Paint Coverage Estimation Method",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "time-card"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Estimation Method",
+    "metaDescription": "How To Estimate Paint Coverage Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-estimation-method",
     "title": "How To Calculate Compound Interest Estimation Method",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "wallpaper"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Estimation Method",
+    "metaDescription": "How To Calculate Compound Interest Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-estimation-method",
@@ -879,106 +1073,130 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paycheck"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Estimation Method",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-estimation-method",
     "title": "How To Convert Inches To Centimeters Estimation Method",
-    "category": "health",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "body-surface-area"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Estimation Method",
+    "metaDescription": "How To Convert Inches To Centimeters Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-estimation-method",
     "title": "How To Calculate Business Days Estimation Method",
-    "category": "math",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "combination"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Estimation Method",
+    "metaDescription": "How To Calculate Business Days Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-estimation-method",
     "title": "How To Estimate Gravel For A Driveway Estimation Method",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "inches-to-cm"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Estimation Method",
+    "metaDescription": "How To Estimate Gravel For A Driveway Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-estimation-method",
     "title": "How To Calculate Tile Waste Estimation Method",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "date-difference"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Estimation Method",
+    "metaDescription": "How To Calculate Tile Waste Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-estimation-method",
     "title": "How To Choose A Loan Term Estimation Method",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paint"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Estimation Method",
+    "metaDescription": "How To Choose A Loan Term Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-estimation-method",
     "title": "How Calorie Needs Are Estimated Estimation Method",
-    "category": "finance",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "retirement"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Estimation Method",
+    "metaDescription": "How Calorie Needs Are Estimated Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-estimation-method",
     "title": "How To Calculate Percentages Quickly Estimation Method",
-    "category": "health",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "protein-intake"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Estimation Method",
+    "metaDescription": "How To Calculate Percentages Quickly Estimation Method: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-cost-factors",
     "title": "How Much Concrete Do I Need Cost Factors",
-    "category": "math",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "probability"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Cost Factors",
+    "metaDescription": "How Much Concrete Do I Need Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-cost-factors",
     "title": "How To Estimate Roofing Materials Cost Factors",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "miles-to-kilometers"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Cost Factors",
+    "metaDescription": "How To Estimate Roofing Materials Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-cost-factors",
     "title": "How Mortgage Interest Works Cost Factors",
-    "category": "time",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "countdown"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Cost Factors",
+    "metaDescription": "How Mortgage Interest Works Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-cost-factors",
     "title": "Bmi Explained Cost Factors",
-    "category": "construction",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "asphalt"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Cost Factors",
+    "metaDescription": "Bmi Explained Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-cost-factors",
@@ -987,97 +1205,119 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "credit-card-payoff"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Cost Factors",
+    "metaDescription": "How To Calculate Roi Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-cost-factors",
     "title": "How To Estimate Paint Coverage Cost Factors",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pace"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Cost Factors",
+    "metaDescription": "How To Estimate Paint Coverage Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-cost-factors",
     "title": "How To Calculate Compound Interest Cost Factors",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "circle"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Cost Factors",
+    "metaDescription": "How To Calculate Compound Interest Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-cost-factors",
     "title": "How To Plan A Debt Payoff Schedule Cost Factors",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "kilograms-to-pounds"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Cost Factors",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-cost-factors",
     "title": "How To Convert Inches To Centimeters Cost Factors",
-    "category": "time",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "meeting-time"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Cost Factors",
+    "metaDescription": "How To Convert Inches To Centimeters Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-cost-factors",
     "title": "How To Calculate Business Days Cost Factors",
-    "category": "construction",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "stud"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Cost Factors",
+    "metaDescription": "How To Calculate Business Days Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-cost-factors",
     "title": "How To Estimate Gravel For A Driveway Cost Factors",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "emergency-fund"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Cost Factors",
+    "metaDescription": "How To Estimate Gravel For A Driveway Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-cost-factors",
     "title": "How To Calculate Tile Waste Cost Factors",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "waist-to-hip-ratio"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Cost Factors",
+    "metaDescription": "How To Calculate Tile Waste Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-cost-factors",
     "title": "How To Choose A Loan Term Cost Factors",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "modulo"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Cost Factors",
+    "metaDescription": "How To Choose A Loan Term Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-cost-factors",
     "title": "How Calorie Needs Are Estimated Cost Factors",
-    "category": "conversion",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "square-meters-to-square-feet"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Cost Factors",
+    "metaDescription": "How Calorie Needs Are Estimated Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-cost-factors",
     "title": "How To Calculate Percentages Quickly Cost Factors",
-    "category": "time",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "leap-year"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Cost Factors",
+    "metaDescription": "How To Calculate Percentages Quickly Cost Factors: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-step-by-step",
@@ -1086,61 +1326,75 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "concrete"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Step By Step",
+    "metaDescription": "How Much Concrete Do I Need Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-step-by-step",
     "title": "How To Estimate Roofing Materials Step By Step",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "loan"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Step By Step",
+    "metaDescription": "How To Estimate Roofing Materials Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-step-by-step",
     "title": "How Mortgage Interest Works Step By Step",
-    "category": "health",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "macro"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Step By Step",
+    "metaDescription": "How Mortgage Interest Works Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-step-by-step",
     "title": "Bmi Explained Step By Step",
-    "category": "math",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "fraction"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Step By Step",
+    "metaDescription": "Bmi Explained Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-step-by-step",
     "title": "How To Calculate Roi Step By Step",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "celsius-to-fahrenheit"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Step By Step",
+    "metaDescription": "How To Calculate Roi Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-step-by-step",
     "title": "How To Estimate Paint Coverage Step By Step",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "time-zone"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Step By Step",
+    "metaDescription": "How To Estimate Paint Coverage Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-step-by-step",
     "title": "How To Calculate Compound Interest Step By Step",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "gravel"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Step By Step",
+    "metaDescription": "How To Calculate Compound Interest Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-step-by-step",
@@ -1149,106 +1403,130 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "debt-payoff"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Step By Step",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-step-by-step",
     "title": "How To Convert Inches To Centimeters Step By Step",
-    "category": "health",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ideal-weight"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Step By Step",
+    "metaDescription": "How To Convert Inches To Centimeters Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-step-by-step",
     "title": "How To Calculate Business Days Step By Step",
-    "category": "math",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "area"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Step By Step",
+    "metaDescription": "How To Calculate Business Days Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-step-by-step",
     "title": "How To Estimate Gravel For A Driveway Step By Step",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "yards-to-meters"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Step By Step",
+    "metaDescription": "How To Estimate Gravel For A Driveway Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-step-by-step",
     "title": "How To Calculate Tile Waste Step By Step",
-    "category": "time",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "months-between-dates"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Step By Step",
+    "metaDescription": "How To Calculate Tile Waste Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-step-by-step",
     "title": "How To Choose A Loan Term Step By Step",
-    "category": "construction",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "paver"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Step By Step",
+    "metaDescription": "How To Choose A Loan Term Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-step-by-step",
     "title": "How Calorie Needs Are Estimated Step By Step",
-    "category": "finance",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "present-value"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Step By Step",
+    "metaDescription": "How Calorie Needs Are Estimated Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-step-by-step",
     "title": "How To Calculate Percentages Quickly Step By Step",
-    "category": "health",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sleep"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Step By Step",
+    "metaDescription": "How To Calculate Percentages Quickly Step By Step: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-much-concrete-do-i-need-simple-explanation",
     "title": "How Much Concrete Do I Need Simple Explanation",
-    "category": "math",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how much concrete do i need with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "exponent"
+    "relatedCalculator": "concrete",
+    "seoTitle": "How Much Concrete Do I Need Simple Explanation",
+    "metaDescription": "How Much Concrete Do I Need Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-roofing-materials-simple-explanation",
     "title": "How To Estimate Roofing Materials Simple Explanation",
-    "category": "conversion",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate roofing materials with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "hectares-to-acres"
+    "relatedCalculator": "roofing",
+    "seoTitle": "How To Estimate Roofing Materials Simple Explanation",
+    "metaDescription": "How To Estimate Roofing Materials Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-mortgage-interest-works-simple-explanation",
     "title": "How Mortgage Interest Works Simple Explanation",
-    "category": "time",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how mortgage interest works with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "school-days"
+    "relatedCalculator": "mortgage",
+    "seoTitle": "How Mortgage Interest Works Simple Explanation",
+    "metaDescription": "How Mortgage Interest Works Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "bmi-explained-simple-explanation",
     "title": "Bmi Explained Simple Explanation",
-    "category": "construction",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to bmi explained with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "sand"
+    "relatedCalculator": "bmi",
+    "seoTitle": "Bmi Explained Simple Explanation",
+    "metaDescription": "Bmi Explained Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-roi-simple-explanation",
@@ -1257,96 +1535,228 @@ export const articles = [
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate roi with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "tip"
+    "relatedCalculator": "roi",
+    "seoTitle": "How To Calculate Roi Simple Explanation",
+    "metaDescription": "How To Calculate Roi Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-paint-coverage-simple-explanation",
     "title": "How To Estimate Paint Coverage Simple Explanation",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate paint coverage with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmi"
+    "relatedCalculator": "paint",
+    "seoTitle": "How To Estimate Paint Coverage Simple Explanation",
+    "metaDescription": "How To Estimate Paint Coverage Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-compound-interest-simple-explanation",
     "title": "How To Calculate Compound Interest Simple Explanation",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate compound interest with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "ratio"
+    "relatedCalculator": "compound-interest",
+    "seoTitle": "How To Calculate Compound Interest Simple Explanation",
+    "metaDescription": "How To Calculate Compound Interest Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-plan-a-debt-payoff-schedule-simple-explanation",
     "title": "How To Plan A Debt Payoff Schedule Simple Explanation",
-    "category": "conversion",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to plan a debt payoff schedule with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "pounds-to-kg"
+    "relatedCalculator": "debt-payoff",
+    "seoTitle": "How To Plan A Debt Payoff Schedule Simple Explanation",
+    "metaDescription": "How To Plan A Debt Payoff Schedule Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-convert-inches-to-centimeters-simple-explanation",
     "title": "How To Convert Inches To Centimeters Simple Explanation",
-    "category": "time",
+    "category": "conversion",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to convert inches to centimeters with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "business-days"
+    "relatedCalculator": "inches-to-cm",
+    "seoTitle": "How To Convert Inches To Centimeters Simple Explanation",
+    "metaDescription": "How To Convert Inches To Centimeters Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-business-days-simple-explanation",
     "title": "How To Calculate Business Days Simple Explanation",
-    "category": "construction",
+    "category": "time",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate business days with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "flooring"
+    "relatedCalculator": "business-days",
+    "seoTitle": "How To Calculate Business Days Simple Explanation",
+    "metaDescription": "How To Calculate Business Days Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-estimate-gravel-for-a-driveway-simple-explanation",
     "title": "How To Estimate Gravel For A Driveway Simple Explanation",
-    "category": "finance",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to estimate gravel for a driveway with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "investment-return"
+    "relatedCalculator": "gravel",
+    "seoTitle": "How To Estimate Gravel For A Driveway Simple Explanation",
+    "metaDescription": "How To Estimate Gravel For A Driveway Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-tile-waste-simple-explanation",
     "title": "How To Calculate Tile Waste Simple Explanation",
-    "category": "health",
+    "category": "construction",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate tile waste with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "bmr"
+    "relatedCalculator": "tile",
+    "seoTitle": "How To Calculate Tile Waste Simple Explanation",
+    "metaDescription": "How To Calculate Tile Waste Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-choose-a-loan-term-simple-explanation",
     "title": "How To Choose A Loan Term Simple Explanation",
-    "category": "math",
+    "category": "finance",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to choose a loan term with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "median"
+    "relatedCalculator": "loan",
+    "seoTitle": "How To Choose A Loan Term Simple Explanation",
+    "metaDescription": "How To Choose A Loan Term Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-calorie-needs-are-estimated-simple-explanation",
     "title": "How Calorie Needs Are Estimated Simple Explanation",
-    "category": "conversion",
+    "category": "health",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how calorie needs are estimated with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "cups-to-milliliters"
+    "relatedCalculator": "calorie",
+    "seoTitle": "How Calorie Needs Are Estimated Simple Explanation",
+    "metaDescription": "How Calorie Needs Are Estimated Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
   },
   {
     "slug": "how-to-calculate-percentages-quickly-simple-explanation",
     "title": "How To Calculate Percentages Quickly Simple Explanation",
-    "category": "time",
+    "category": "math",
     "updated": "2026-05-21",
     "description": "A concise, practical guide to how to calculate percentages quickly with formulas, examples, and planning notes.",
     "readingMinutes": 4,
-    "relatedCalculator": "days-until"
+    "relatedCalculator": "percentage",
+    "seoTitle": "How To Calculate Percentages Quickly Simple Explanation",
+    "metaDescription": "How To Calculate Percentages Quickly Simple Explanation: clear method, worked example, planning notes, and a related calculator for checking your numbers."
+  },
+  {
+    "slug": "how-to-calculate-percentage-increase",
+    "title": "How to Calculate Percentage Increase",
+    "category": "math",
+    "updated": "2026-05-22",
+    "description": "Learn the percentage increase formula, when to use it, and how to check the result with a simple example.",
+    "readingMinutes": 4,
+    "relatedCalculator": "percentage-increase",
+    "seoTitle": "How to Calculate Percentage Increase",
+    "metaDescription": "How to Calculate Percentage Increase: Learn the percentage increase formula, when to use it, and how to check the result with a simple example."
+  },
+  {
+    "slug": "how-to-calculate-percentage-decrease",
+    "title": "How to Calculate Percentage Decrease",
+    "category": "math",
+    "updated": "2026-05-22",
+    "description": "Learn how percentage decrease works for discounts, lower counts, reduced prices, and simple before-and-after comparisons.",
+    "readingMinutes": 4,
+    "relatedCalculator": "percentage-decrease",
+    "seoTitle": "How to Calculate Percentage Decrease",
+    "metaDescription": "How to Calculate Percentage Decrease: Learn how percentage decrease works for discounts, lower counts, reduced prices, and simple before-and-after comparisons"
+  },
+  {
+    "slug": "how-to-calculate-days-between-dates",
+    "title": "How to Calculate Days Between Dates",
+    "category": "time",
+    "updated": "2026-05-22",
+    "description": "Understand elapsed days, inclusive counting, and common date range mistakes before using a date calculator.",
+    "readingMinutes": 4,
+    "relatedCalculator": "days-between-dates",
+    "seoTitle": "How to Calculate Days Between Dates",
+    "metaDescription": "How to Calculate Days Between Dates: Understand elapsed days, inclusive counting, and common date range mistakes before using a date calculator."
+  },
+  {
+    "slug": "how-to-estimate-monthly-payments",
+    "title": "How to Estimate Monthly Payments",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "A plain-English guide to monthly payment estimates, interest rates, loan terms, and limits of payment calculators.",
+    "readingMinutes": 4,
+    "relatedCalculator": "monthly-payment",
+    "seoTitle": "How to Estimate Monthly Payments",
+    "metaDescription": "How to Estimate Monthly Payments: A plain-English guide to monthly payment estimates, interest rates, loan terms, and limits of payment calculators."
+  },
+  {
+    "slug": "how-to-set-a-savings-goal",
+    "title": "How to Set a Savings Goal",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "Break a savings target into monthly steps and learn when to revisit your assumptions.",
+    "readingMinutes": 4,
+    "relatedCalculator": "savings-goal",
+    "seoTitle": "How to Set a Savings Goal",
+    "metaDescription": "How to Set a Savings Goal: Break a savings target into monthly steps and learn when to revisit your assumptions."
+  },
+  {
+    "slug": "how-to-compare-hourly-and-salary-pay",
+    "title": "How to Compare Hourly and Salary Pay",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "Compare hourly rates and annual salaries by accounting for hours, paid weeks, taxes, and benefits.",
+    "readingMinutes": 4,
+    "relatedCalculator": "hourly-to-salary",
+    "seoTitle": "How to Compare Hourly and Salary Pay",
+    "metaDescription": "How to Compare Hourly and Salary Pay: Compare hourly rates and annual salaries by accounting for hours, paid weeks, taxes, and benefits."
+  },
+  {
+    "slug": "how-to-calculate-sales-tax",
+    "title": "How to Calculate Sales Tax",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "Estimate sales tax and total price from a pre-tax price and local tax rate, with notes on rounding and limits.",
+    "readingMinutes": 4,
+    "relatedCalculator": "sales-tax",
+    "seoTitle": "How to Calculate Sales Tax",
+    "metaDescription": "How to Calculate Sales Tax: estimate tax, total price, and common rounding issues before using a sales tax calculator."
+  },
+  {
+    "slug": "how-to-calculate-a-discount",
+    "title": "How to Calculate a Discount",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "Learn how discount percentages translate into dollar savings and final sale prices.",
+    "readingMinutes": 4,
+    "relatedCalculator": "discount",
+    "seoTitle": "How to Calculate a Discount",
+    "metaDescription": "How to Calculate a Discount: Learn how discount percentages translate into dollar savings and final sale prices."
+  },
+  {
+    "slug": "how-to-compare-unit-prices",
+    "title": "How to Compare Unit Prices",
+    "category": "finance",
+    "updated": "2026-05-22",
+    "description": "Use unit prices to compare package sizes, servings, and everyday shopping choices more clearly.",
+    "readingMinutes": 4,
+    "relatedCalculator": "unit-price",
+    "seoTitle": "How to Compare Unit Prices",
+    "metaDescription": "How to Compare Unit Prices: Use unit prices to compare package sizes, servings, and everyday shopping choices more clearly."
+  },
+  {
+    "slug": "what-a-bmi-calculator-can-and-cannot-tell-you",
+    "title": "What a BMI Calculator Can and Cannot Tell You",
+    "category": "health",
+    "updated": "2026-05-22",
+    "description": "Understand BMI as a rough screening estimate, its limits, and why it is not a diagnosis.",
+    "readingMinutes": 4,
+    "relatedCalculator": "bmi",
+    "seoTitle": "What a BMI Calculator Can and Cannot Tell You",
+    "metaDescription": "What a BMI Calculator Can and Cannot Tell You: Understand BMI as a rough screening estimate, its limits, and why it is not a diagnosis."
   }
 ] as const;

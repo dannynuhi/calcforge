@@ -22,6 +22,27 @@ const conversionFactors: Record<string, number> = {
 };
 
 export function calculate(type: string, slug: string, values: CalculationInput) {
+  if (slug === "percentage-increase") {
+    return values.original === 0 ? 0 : ((values.newValue - values.original) / values.original) * 100;
+  }
+  if (slug === "percentage-decrease") {
+    return values.original === 0 ? 0 : ((values.original - values.newValue) / values.original) * 100;
+  }
+  if (slug === "percent-of-a-number") return values.value * (values.percent / 100);
+  if (slug === "days-between-dates") return Math.max(values.end - values.start, 0);
+  if (slug === "monthly-payment") {
+    const monthlyRate = values.rate / 100 / 12;
+    const months = Math.max(values.years * 12, 1);
+    if (monthlyRate === 0) return values.principal / months;
+    return (values.principal * monthlyRate) / (1 - Math.pow(1 + monthlyRate, -months));
+  }
+  if (slug === "savings-goal") return Math.max(values.goal - values.current, 0) / Math.max(values.months, 1);
+  if (slug === "hourly-to-salary") return values.hourly * values.hours * values.weeks;
+  if (slug === "salary-to-hourly") return values.salary / Math.max(values.hours * values.weeks, 1);
+  if (slug === "sales-tax") return values.price * (1 + values.rate / 100);
+  if (slug === "discount") return values.price * (1 - values.rate / 100);
+  if (slug === "unit-price") return values.quantity === 0 ? 0 : values.price / values.quantity;
+
   if (slug === "celsius-to-fahrenheit") return values.value * 1.8 + 32;
   if (slug === "fahrenheit-to-celsius") return (values.value - 32) / 1.8;
 

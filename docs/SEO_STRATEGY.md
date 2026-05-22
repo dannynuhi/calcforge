@@ -5,7 +5,7 @@ CalcForge uses topic clusters around calculators, guides, and glossary definitio
 Principles:
 
 - Keep each calculator useful on its own with an interactive tool, formula, example, FAQs, and limitations.
-- Avoid location doorway pages, fake reviews, fake credentials, and fabricated statistics.
+- Avoid location doorway pages, fabricated endorsements, fake credentials, and fabricated statistics.
 - Use stable evergreen URLs.
 - Update pages when formulas, assumptions, or user expectations change.
 - Keep article pages concise and tied to a practical task.

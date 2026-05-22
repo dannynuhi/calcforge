@@ -7,10 +7,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        ink: "#16201c",
-        paper: "#fbfcf8",
-        forge: "#246b52",
-        line: "#dfe7dc",
+        ink: "#0f1f33",
+        paper: "#f7faf9",
+        forge: "#047857",
+        line: "#d8e2df",
       },
       fontFamily: {
         sans: ["var(--font-sans)", "ui-sans-serif", "system-ui"],
