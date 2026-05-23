@@ -49,11 +49,12 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(breadcrumbs.map((item) => ({ name: item.label, url: absoluteUrl(site.url, item.href) })))) }} />
       <article className="prose prose-zinc max-w-none dark:prose-invert">
         <Breadcrumbs items={breadcrumbs} />
-        <section className="not-prose rounded-2xl border border-line bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-          <p className="text-sm font-semibold uppercase tracking-wide text-forge">CalcForge guide</p>
+        <section className="not-prose premium-shell relative overflow-hidden p-6 sm:p-8">
+          <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-400 via-blue-400 to-emerald-300" />
+          <p className="page-kicker">CalcForge guide</p>
           <h1 className="mt-2 text-3xl font-bold text-ink dark:text-zinc-50">{article.title}</h1>
           <p className="mt-3 text-lg leading-8 text-zinc-700 dark:text-zinc-300">{article.description}</p>
-          <p className="mt-3 text-sm text-zinc-500">Updated {article.updated} · {article.readingMinutes} min read</p>
+          <p className="mt-4 inline-flex rounded-full border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-medium text-zinc-600 dark:border-emerald-900 dark:bg-emerald-950/30 dark:text-zinc-300">Updated {article.updated} · {article.readingMinutes} min read</p>
         </section>
         <h2 id="quick-method">Quick method</h2>
         <p>{copy.method}</p>
@@ -65,8 +66,8 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
         <p>{copy.example}</p>
         <h2 id="calculator">Related calculator</h2>
         {calc ? (
-          <div className="not-prose rounded-xl border border-emerald-200 bg-emerald-50/70 p-5 dark:border-emerald-900 dark:bg-emerald-950/20">
-            <p className="text-sm font-medium uppercase tracking-wide text-forge dark:text-emerald-300">Try the calculator</p>
+          <div className="not-prose rounded-3xl border border-emerald-200 bg-gradient-to-br from-emerald-50 via-white to-blue-50 p-5 shadow-sm dark:border-emerald-900 dark:from-emerald-950/30 dark:via-zinc-900 dark:to-blue-950/20">
+            <p className="premium-badge">Try the calculator</p>
             <Link className="mt-1 block text-lg font-semibold no-underline hover:underline" href={`/calculators/${calc.category}/${calc.slug}/`}>{calc.name}</Link>
             <p className="mt-2 text-sm leading-6 text-zinc-700 dark:text-zinc-300">Run the numbers with your own inputs and compare another scenario.</p>
           </div>
@@ -104,7 +105,7 @@ export default async function ArticlePage({ params }: { params: Promise<{ slug: 
       </article>
       <aside className="hidden lg:block">
         <div className="sticky top-20">
-          <nav className="rounded border border-line bg-white p-4 text-sm dark:border-zinc-800 dark:bg-zinc-900" aria-label="Table of contents">
+          <nav className="rounded-2xl border border-line bg-white/90 p-4 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-900/90" aria-label="Table of contents">
             <p className="font-semibold">On this page</p>
             <a className="mt-3 block" href="#quick-method">Quick method</a>
             <a className="mt-2 block" href="#example">Example</a>

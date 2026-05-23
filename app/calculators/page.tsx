@@ -12,9 +12,12 @@ export const metadata: Metadata = {
 export default function CalculatorsPage() {
   return (
     <main className="mx-auto max-w-7xl px-4 py-10">
-      <p className="text-sm font-semibold uppercase tracking-wide text-forge">Calculator library</p>
-      <h1 className="mt-2 text-3xl font-bold">Find a calculator</h1>
-      <p className="mt-3 max-w-3xl text-zinc-700 dark:text-zinc-300">Search or browse focused tools with formulas, examples, FAQs, and related guides. Links remain crawlable and available without signup.</p>
+      <section className="premium-shell relative overflow-hidden p-6 sm:p-8">
+        <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-400 via-blue-400 to-emerald-300" />
+        <p className="page-kicker">Calculator library</p>
+        <h1 className="mt-2 text-4xl font-bold">Find a calculator</h1>
+        <p className="mt-3 max-w-3xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">Search or browse focused tools with formulas, examples, FAQs, and related guides. Links remain crawlable and available without signup.</p>
+      </section>
       <div className="mt-8">
         <CalculatorSearch calculators={calculators} />
       </div>

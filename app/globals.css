@@ -16,6 +16,9 @@ html {
 
 body {
   @apply bg-paper text-ink antialiased dark:bg-zinc-950 dark:text-zinc-100;
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(4, 120, 87, 0.08), transparent 28rem),
+    linear-gradient(180deg, rgba(15, 31, 51, 0.03), transparent 24rem);
 }
 
 a {
@@ -24,4 +27,34 @@ a {
 
 .focus-ring {
   @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-forge;
+}
+
+@layer components {
+  .premium-shell {
+    @apply rounded-3xl border border-white/70 bg-white/85 shadow-[0_24px_70px_rgba(15,31,51,0.10)] ring-1 ring-slate-900/5 backdrop-blur dark:border-zinc-800 dark:bg-zinc-900/85 dark:shadow-none dark:ring-white/10;
+  }
+
+  .premium-card {
+    @apply rounded-2xl border border-line bg-white p-5 shadow-[0_14px_40px_rgba(15,31,51,0.07)] transition duration-200 hover:-translate-y-1 hover:border-emerald-300 hover:shadow-[0_20px_55px_rgba(15,31,51,0.12)] dark:border-zinc-800 dark:bg-zinc-900 dark:hover:border-emerald-800;
+  }
+
+  .premium-badge {
+    @apply inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-forge dark:border-emerald-900 dark:bg-emerald-950/60 dark:text-emerald-300;
+  }
+
+  .premium-button {
+    @apply focus-ring inline-flex items-center justify-center rounded-full bg-forge px-5 py-3 text-center font-semibold text-white no-underline shadow-lg shadow-emerald-900/15 transition hover:-translate-y-0.5 hover:bg-emerald-700;
+  }
+
+  .premium-button-secondary {
+    @apply focus-ring inline-flex items-center justify-center rounded-full border border-slate-200 bg-white px-5 py-3 text-center font-semibold text-ink no-underline shadow-sm transition hover:-translate-y-0.5 hover:border-emerald-300 hover:text-forge dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-100;
+  }
+
+  .page-kicker {
+    @apply text-sm font-semibold uppercase tracking-[0.18em] text-forge dark:text-emerald-300;
+  }
+
+  .soft-panel {
+    @apply rounded-2xl border border-line bg-white/90 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/90;
+  }
 }

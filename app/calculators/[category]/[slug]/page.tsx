@@ -50,18 +50,19 @@ export default async function CalculatorPage({ params }: { params: Promise<{ cat
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(breadcrumbs.map((item) => ({ name: item.label, url: absoluteUrl(site.url, item.href) })))) }} />
       <article>
         <Breadcrumbs items={breadcrumbs} />
-        <section className="mt-5 rounded-2xl border border-line bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-          <p className="text-sm font-semibold uppercase tracking-wide text-forge">{calculator.categoryName} calculator</p>
-          <h1 className="mt-2 text-3xl font-bold">{calculator.name}</h1>
+        <section className="premium-shell relative mt-5 overflow-hidden p-6 sm:p-8">
+          <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-400 via-blue-400 to-emerald-300" />
+          <p className="page-kicker">{calculator.categoryName} calculator</p>
+          <h1 className="mt-2 text-4xl font-bold">{calculator.name}</h1>
           <p className="mt-3 max-w-3xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">{calculator.description}</p>
-          <p className="mt-3 text-sm text-zinc-500">Updated {calculator.updated} · Free to use · No signup required</p>
+          <p className="mt-4 inline-flex rounded-full border border-emerald-200 bg-emerald-50 px-3 py-2 text-sm font-medium text-zinc-600 dark:border-emerald-900 dark:bg-emerald-950/30 dark:text-zinc-300">Updated {calculator.updated} · Free to use · No signup required</p>
         </section>
-        <div className="mt-5 rounded-xl border border-emerald-200 bg-emerald-50/70 p-4 text-sm leading-6 text-zinc-700 dark:border-emerald-900 dark:bg-emerald-950/20 dark:text-zinc-300">
+        <div className="mt-5 rounded-2xl border border-emerald-200 bg-emerald-50/70 p-4 text-sm leading-6 text-zinc-700 shadow-sm dark:border-emerald-900 dark:bg-emerald-950/20 dark:text-zinc-300">
           <strong className="text-ink dark:text-zinc-100">Before you use it:</strong> Enter your values, review the formula, and use the result as a practical estimate. {disclaimer}
         </div>
         <div className="mt-8"><CalculatorClient calculator={calculator} /></div>
         <AdSlot id={`below-calculator-${calculator.slug}`} />
-        <section id="formula" className="prose prose-zinc mt-8 max-w-none rounded-2xl border border-line bg-white p-6 dark:prose-invert dark:border-zinc-800 dark:bg-zinc-900">
+        <section id="formula" className="prose prose-zinc mt-8 max-w-none rounded-3xl border border-line bg-white/90 p-6 shadow-sm dark:prose-invert dark:border-zinc-800 dark:bg-zinc-900/90">
           <h2>How calculations work</h2>
           <p>This calculator uses the visible inputs on the page and applies the formula below. Keeping the assumptions visible makes the result easier to check and reuse.</p>
           <h2>Formula</h2>
@@ -88,22 +89,22 @@ export default async function CalculatorPage({ params }: { params: Promise<{ cat
         </section>
         <AuthorBox />
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold">Related calculators</h2>
+          <h2 className="text-2xl font-bold">Related calculators</h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {relatedCalculators(calculator).map((item) => (
-              <Link className="focus-ring rounded-xl border border-line bg-white p-4 no-underline shadow-sm hover:border-forge dark:border-zinc-800 dark:bg-zinc-900" key={item.slug} href={`/calculators/${item.category}/${item.slug}/`}>
-                <span className="text-xs font-medium uppercase tracking-wide text-forge dark:text-emerald-300">{item.categoryName}</span>
+              <Link className="focus-ring rounded-2xl border border-line bg-white p-4 no-underline shadow-sm transition hover:-translate-y-0.5 hover:border-forge hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900" key={item.slug} href={`/calculators/${item.category}/${item.slug}/`}>
+                <span className="premium-badge">{item.categoryName}</span>
                 <span className="mt-1 block font-semibold">{item.name}</span>
               </Link>
             ))}
           </div>
         </section>
         <section className="mt-10">
-          <h2 className="text-2xl font-semibold">Related guides</h2>
+          <h2 className="text-2xl font-bold">Related guides</h2>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             {relatedArticlesForCalculator(calculator).map((article) => (
-              <Link className="focus-ring rounded-xl border border-line bg-white p-4 no-underline shadow-sm hover:border-forge dark:border-zinc-800 dark:bg-zinc-900" key={article.slug} href={`/articles/${article.slug}/`}>
-                <span className="text-xs font-medium uppercase tracking-wide text-forge dark:text-emerald-300">Guide</span>
+              <Link className="focus-ring rounded-2xl border border-line bg-white p-4 no-underline shadow-sm transition hover:-translate-y-0.5 hover:border-forge hover:shadow-md dark:border-zinc-800 dark:bg-zinc-900" key={article.slug} href={`/articles/${article.slug}/`}>
+                <span className="premium-badge">Guide</span>
                 <span className="mt-1 block font-semibold">{article.title}</span>
               </Link>
             ))}
@@ -112,7 +113,7 @@ export default async function CalculatorPage({ params }: { params: Promise<{ cat
       </article>
       <aside className="hidden lg:block">
         <div className="sticky top-20">
-          <nav className="rounded-xl border border-line bg-white p-4 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-900" aria-label="Table of contents">
+          <nav className="rounded-2xl border border-line bg-white/90 p-4 text-sm shadow-sm dark:border-zinc-800 dark:bg-zinc-900/90" aria-label="Table of contents">
             <p className="font-semibold">On this page</p>
             <a className="mt-3 block" href="#calculator">Calculator</a>
             <a className="mt-2 block" href="#formula">Formula</a>

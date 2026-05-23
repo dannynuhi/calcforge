@@ -16,7 +16,7 @@ export function AdSlot({ id, label = "Advertisement", className = "", size = "ba
   return (
     <div
       id={id}
-      className={`my-8 flex w-full items-center justify-center rounded-lg border border-dashed border-zinc-300 bg-white/70 px-4 text-center text-xs uppercase tracking-wide text-zinc-400 dark:border-zinc-800 dark:bg-zinc-900/70 dark:text-zinc-500 ${sizeClass[size]} ${className}`}
+      className={`my-8 flex w-full items-center justify-center rounded-2xl border border-dashed border-slate-300 bg-slate-50/80 px-4 text-center text-[0.7rem] font-semibold uppercase tracking-[0.2em] text-slate-400 shadow-inner dark:border-zinc-800 dark:bg-zinc-900/60 dark:text-zinc-500 ${sizeClass[size]} ${className}`}
       data-ads-enabled={enabled}
       data-ad-slot={id}
       aria-label={label}

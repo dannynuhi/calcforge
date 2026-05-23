@@ -33,17 +33,18 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
     <main className="mx-auto max-w-7xl px-4 py-10">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema(breadcrumbs.map((item) => ({ name: item.label, url: absoluteUrl(site.url, item.href) })))) }} />
       <Breadcrumbs items={breadcrumbs} />
-      <section className="mt-5 rounded-2xl border border-line bg-white p-6 shadow-sm dark:border-zinc-800 dark:bg-zinc-900">
-        <p className="text-sm font-semibold uppercase tracking-wide text-forge">{category.name} tools</p>
-        <h1 className="mt-2 text-3xl font-bold">{category.name} calculators</h1>
-        <p className="mt-3 max-w-3xl leading-7 text-zinc-700 dark:text-zinc-300">{category.description}</p>
+      <section className="premium-shell relative mt-5 overflow-hidden p-6 sm:p-8">
+        <div className="absolute inset-x-0 top-0 h-1 bg-gradient-to-r from-emerald-400 via-blue-400 to-emerald-300" />
+        <p className="page-kicker">{category.name} tools</p>
+        <h1 className="mt-2 text-4xl font-bold">{category.name} calculators</h1>
+        <p className="mt-3 max-w-3xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">{category.description}</p>
       </section>
       {intro ? (
-        <section className="mt-6 rounded-2xl border border-line bg-white p-5 dark:border-zinc-800 dark:bg-zinc-900">
-          <h2 className="text-xl font-semibold">Plan with clearer estimates</h2>
+        <section className="mt-6 rounded-2xl border border-line bg-white/85 p-5 shadow-sm dark:border-zinc-800 dark:bg-zinc-900/80">
+          <h2 className="text-xl font-bold">Plan with clearer estimates</h2>
           <p className="mt-2 max-w-4xl leading-7 text-zinc-700 dark:text-zinc-300">{intro.summary}</p>
           <ul className="mt-4 grid gap-2 text-sm text-zinc-700 dark:text-zinc-300 sm:grid-cols-3">
-            {intro.tips.map((tip) => <li className="rounded bg-zinc-50 p-3 dark:bg-zinc-950" key={tip}>{tip}</li>)}
+            {intro.tips.map((tip) => <li className="rounded-xl border border-slate-200 bg-slate-50 p-3 dark:border-zinc-800 dark:bg-zinc-950" key={tip}>{tip}</li>)}
           </ul>
         </section>
       ) : null}
@@ -59,7 +60,7 @@ export default async function CategoryPage({ params }: { params: Promise<{ categ
       </div>
       {articles.length ? (
         <section className="mt-12">
-          <h2 className="text-2xl font-semibold">Helpful {category.name.toLowerCase()} guides</h2>
+          <h2 className="text-2xl font-bold">Helpful {category.name.toLowerCase()} guides</h2>
           <p className="mt-2 max-w-3xl text-zinc-700 dark:text-zinc-300">Use these guides to understand the assumptions behind the calculators and check your estimate before acting on it.</p>
           <div className="mt-6">
             <CardGrid items={articles.map((article) => ({ href: `/articles/${article.slug}/`, title: article.title, description: article.description, badge: "Guide", cta: "Read guide" }))} />
