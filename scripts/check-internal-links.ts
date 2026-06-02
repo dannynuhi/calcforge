@@ -2,7 +2,7 @@ import { allRoutes } from "../lib/content";
 import fs from "node:fs";
 import path from "node:path";
 
-const CANONICAL_DOMAIN = "https://calcforge-nine.vercel.app";
+const CANONICAL_DOMAIN = "https://calcforge-n9gp.vercel.app";
 const FORBIDDEN_URLS = [
   `https://${"calcforge"}.com`,
   `${"calcforge"}.com`,

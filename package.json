@@ -14,7 +14,17 @@
     "audit:content": "tsx scripts/site-audit.ts content",
     "audit:sitemaps": "tsx scripts/site-audit.ts sitemaps",
     "verify": "npm run validate:urls && npm run validate:metadata && npm run check:links && npm run audit:content && npm run audit:seo && npm run build && npm run audit:sitemaps",
-    "regenerate:sitemap": "next build"
+    "regenerate:sitemap": "next build",
+    "governance:audit": "node scripts/audit-governance-integrity.mjs",
+    "drift:audit": "node scripts/audit-operational-drift.mjs",
+    "performance:audit": "node scripts/audit-performance-accessibility.mjs",
+    "seo:recovery:audit": "node scripts/audit-seo-recovery-intelligence.mjs",
+    "impact:audit": "node scripts/audit-change-impact.mjs",
+    "vitals:audit": "node scripts/audit-lighthouse-vitals.mjs",
+    "runtime:audit": "node scripts/audit-runtime-intelligence.mjs",
+    "maintenance:audit": "node scripts/audit-cannibalization-maintenance.mjs",
+    "test": "npm run typecheck",
+    "validate": "npm run lint && npm run typecheck && npm run build"
   },
   "dependencies": {
     "@next/mdx": "^15.0.0",

@@ -5,7 +5,7 @@ import { calculators } from "../data/calculators";
 import { site } from "../data/site";
 import { allRoutes } from "../lib/content";
 
-const OFFICIAL_URL = "https://calcforge-nine.vercel.app";
+const OFFICIAL_URL = "https://calcforge-n9gp.vercel.app";
 const OLD_URL_PATTERNS = [
   /https?:\/\/calcforge\.com/gi,
   /calcforge\.com/gi,
