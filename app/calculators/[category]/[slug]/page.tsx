@@ -30,6 +30,53 @@ export async function generateMetadata({ params }: { params: Promise<{ category:
   };
 }
 
+
+
+function EstimateQualityChecklist() {
+  return (
+    <section className="mt-8 premium-sheet p-5 sm:p-6">
+      <h2 className="text-xl font-bold text-slate-950 dark:text-white">Estimate quality checklist</h2>
+      <ul className="mt-4 grid gap-3 text-sm leading-6 text-slate-700 dark:text-slate-300 md:grid-cols-2">
+        <li><strong>Input source:</strong> use numbers from a real document, quote, bill, rate, or measurement when possible.</li>
+        <li><strong>Missing costs:</strong> check whether fees, taxes, delivery, insurance, or local rules could change the result.</li>
+        <li><strong>Scenario range:</strong> compare at least one conservative and one optimistic version.</li>
+        <li><strong>Final check:</strong> verify important decisions with the relevant provider, professional, or official source.</li>
+      </ul>
+    </section>
+  );
+}
+
+function QualityUseGuide({ title }: { title: string }) {
+  return (
+    <section className="mt-8 grid gap-5 lg:grid-cols-3">
+      <article className="premium-card p-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Use it well</p>
+        <h2 className="mt-2 text-lg font-bold text-slate-950 dark:text-white">How to use this estimate</h2>
+        <p className="mt-3 text-sm leading-6 text-slate-700 dark:text-slate-300">
+          Start with numbers from a real quote, statement, bill, measurement, or calendar. Then change one input at a time
+          so you can see which assumption moves the result most.
+        </p>
+      </article>
+      <article className="premium-card p-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Double-check</p>
+        <h2 className="mt-2 text-lg font-bold text-slate-950 dark:text-white">Before relying on the result</h2>
+        <p className="mt-3 text-sm leading-6 text-slate-700 dark:text-slate-300">
+          A {title} can help with planning, but real-world totals may include fees, taxes, local rules, rounding, or terms
+          this page cannot know. Verify important decisions with the relevant provider or document.
+        </p>
+      </article>
+      <article className="premium-card p-5">
+        <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Compare scenarios</p>
+        <h2 className="mt-2 text-lg font-bold text-slate-950 dark:text-white">Try three versions</h2>
+        <p className="mt-3 text-sm leading-6 text-slate-700 dark:text-slate-300">
+          Run a conservative, expected, and stretch scenario. This makes the calculator more useful than a single number
+          and helps you spot risk before you act.
+        </p>
+      </article>
+    </section>
+  );
+}
+
 export default async function CalculatorPage({ params }: { params: Promise<{ category: string; slug: string }> }) {
   const { category, slug } = await params;
   const calculator = getCalculator(slug);
@@ -61,6 +108,11 @@ export default async function CalculatorPage({ params }: { params: Promise<{ cat
           <strong className="text-ink dark:text-zinc-100">Before you use it:</strong> Enter your values, review the formula, and use the result as a practical estimate. {disclaimer}
         </div>
         <div className="mt-8"><CalculatorClient calculator={calculator} /></div>
+        
+        <QualityUseGuide title={calculator.title} />
+
+        <EstimateQualityChecklist />
+
         <AdSlot id={`below-calculator-${calculator.slug}`} />
         <section id="formula" className="prose prose-zinc mt-8 max-w-none rounded-3xl border border-line bg-white/90 p-6 shadow-sm dark:prose-invert dark:border-zinc-800 dark:bg-zinc-900/90">
           <h2>How calculations work</h2>

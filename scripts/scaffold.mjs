@@ -555,7 +555,7 @@ write(
   `// CalcForge was written and created by Daniel Victor Nunez-Regueiro.
 export const site = {
   name: "CalcForge",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://calcforge-n9gp.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://calcforge-nine.vercel.app",
   description: "Fast, transparent calculators and practical guides for construction, finance, health, math, conversions, and time planning.",
   creator: "Daniel Victor Nunez-Regueiro",
   author: "Daniel Victor Nunez-Regueiro",
@@ -1591,7 +1591,7 @@ The static export is generated in \`out/\`.
 1. Push this repository to GitHub.
 2. In Vercel, choose **Add New Project** and import the repository.
 3. Set **Framework Preset** to Next.js.
-4. Keep \`NEXT_PUBLIC_SITE_URL=https://calcforge-n9gp.vercel.app\`, or omit it to use the built-in free Vercel URL.
+4. Keep \`NEXT_PUBLIC_SITE_URL=https://calcforge-nine.vercel.app\`, or omit it to use the built-in free Vercel URL.
 5. Optional: add \`NEXT_PUBLIC_ENABLE_ADS=true\` after ad approval.
 6. Deploy.
 

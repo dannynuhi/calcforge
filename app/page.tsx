@@ -108,7 +108,45 @@ export default function HomePage() {
             }))} />
           </div>
         </div>
-        <AdSlot id="home-mid" />
+  
+      <section className="mt-10 grid gap-4 md:grid-cols-3">
+        <a className="premium-card group p-5 no-underline" href="/how-to-use">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Start smarter</p>
+          <h2 className="mt-2 text-lg font-bold text-slate-950 group-hover:text-forge dark:text-white">How to use CalcForge</h2>
+          <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-300">
+            Learn how to compare scenarios, check assumptions, and get more useful estimates.
+          </p>
+        </a>
+        <a className="premium-card group p-5 no-underline" href="/methodology">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Transparent tools</p>
+          <h2 className="mt-2 text-lg font-bold text-slate-950 group-hover:text-forge dark:text-white">Our methodology</h2>
+          <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-300">
+            See how CalcForge keeps estimates clear, educational, and honest about limitations.
+          </p>
+        </a>
+        <a className="premium-card group p-5 no-underline" href="/calculator-accuracy">
+          <p className="text-xs font-semibold uppercase tracking-[0.18em] text-forge">Know the limits</p>
+          <h2 className="mt-2 text-lg font-bold text-slate-950 group-hover:text-forge dark:text-white">Accuracy and assumptions</h2>
+          <p className="mt-2 text-sm leading-6 text-slate-700 dark:text-slate-300">
+            Understand what can change a result and when to verify before making decisions.
+          </p>
+        </a>
+      </section>
+
+
+
+      <section className="mt-10 premium-sheet p-6 sm:p-8">
+        <p className="text-sm font-semibold uppercase tracking-[0.18em] text-forge">Better estimates</p>
+        <h2 className="mt-2 text-2xl font-bold tracking-tight text-slate-950 dark:text-white">Use calculators as comparison tools</h2>
+        <p className="mt-3 max-w-3xl text-sm leading-7 text-slate-700 dark:text-slate-300">
+          A calculator is most helpful when it shows how assumptions change the answer. Learn how to compare scenarios,
+          check limits, and verify important results before making decisions.
+        </p>
+        <a className="mt-5 inline-flex rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white no-underline shadow-sm hover:bg-forge dark:bg-white dark:text-slate-950" href="/learning-center">
+          Visit the Calculator Learning Center
+        </a>
+      </section>
+\n      <AdSlot id="home-mid" />
         <h2 className="text-2xl font-bold">Featured guides</h2>
         <p className="mt-2 max-w-3xl text-zinc-700 dark:text-zinc-300">Short explanations that help you check assumptions before using a result for planning.</p>
         <div className="mt-6">

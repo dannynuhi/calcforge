@@ -1,15 +1,25 @@
-import type { Metadata } from "next";
-
-export const metadata: Metadata = { title: "Contact", description: "Contact note for CalcForge corrections, suggestions, and calculator feedback." };
+export const metadata = {
+  title: "Contact",
+  description: "Use the contact page to report calculator issues, unclear explanations, broken links, or suggestions for making CalcForge more useful.",
+};
 
 export default function Page() {
   return (
-    <main className="mx-auto max-w-3xl px-4 py-10">
-      <h1 className="text-3xl font-bold">Contact</h1>
-      <div className="prose prose-zinc mt-6 dark:prose-invert">
-        <p>CalcForge welcomes corrections and suggestions, especially when a formula needs clearer assumptions or a calculator page could be easier to use.</p>
-        <p>No contact form is included because the site is static-first and does not collect messages, uploads, or account data. Add a public contact email here only when you are ready to monitor it.</p>
-      </div>
+    <main className="mx-auto max-w-4xl px-4 py-12">
+      <section className="premium-sheet p-6 sm:p-8">
+        <h1 className="text-3xl font-bold tracking-tight text-slate-950 dark:text-white sm:text-4xl">Contact</h1>
+        <div className="mt-5 space-y-4 text-sm leading-7 text-slate-700 dark:text-slate-300">
+          <p>Use the contact page to report calculator issues, unclear explanations, broken links, or suggestions for making CalcForge more useful.</p>
+          <ul className="list-disc space-y-2 pl-5">
+            <li>the calculator or article URL</li>
+            <li>what input you entered</li>
+            <li>what result seemed confusing</li>
+            <li>what you expected to happen</li>
+            <li>whether the issue happened on mobile or desktop</li>
+          </ul>
+          <p>CalcForge is designed to improve over time based on clarity, usefulness, accuracy of explanations, and real user needs.</p>
+        </div>
+      </section>
     </main>
   );
 }

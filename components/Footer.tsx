@@ -19,7 +19,11 @@ export function Footer() {
           <Link className="no-underline hover:text-emerald-200 hover:underline" href="/contact/">Contact</Link>
           <Link className="no-underline hover:text-emerald-200 hover:underline" href="/editorial-policy/">Editorial Policy</Link>
           <Link className="no-underline hover:text-emerald-200 hover:underline" href="/articles/">Guides</Link>
-        </nav>
+        
+              <a href="/learning-center" className="hover:text-forge">Learning Center</a>\n              <a href="/methodology" className="hover:text-forge">Methodology</a>
+              <a href="/calculator-accuracy" className="hover:text-forge">Accuracy</a>
+              <a href="/how-to-use" className="hover:text-forge">How to use</a>
+            </nav>
         <nav className="grid content-start gap-2" aria-label="Legal">
           <p className="font-semibold text-white">Trust</p>
           <Link className="no-underline hover:text-emerald-200 hover:underline" href="/privacy/">Privacy</Link>

@@ -2,7 +2,7 @@ import { articles } from "../data/articles";
 import { calculators } from "../data/calculators";
 import { site } from "../data/site";
 
-const CANONICAL_DOMAIN = "https://calcforge-n9gp.vercel.app";
+const CANONICAL_DOMAIN = "https://calcforge-nine.vercel.app";
 const errors: string[] = [];
 
 const missing = [
