@@ -1,4 +1,5 @@
 import { articles } from "@/data/articles";
+import { indexableArticles } from "@/lib/article-quality";
 import { calculators } from "@/data/calculators";
 import { categories } from "@/data/categories";
 import { glossary } from "@/data/glossary";
@@ -15,7 +16,7 @@ export const calculatorsByCategory = (category: string) =>
   calculators.filter((calculator) => calculator.category === category);
 
 export const articlesByCategory = (category: string) =>
-  articles.filter((article) => article.category === category);
+  indexableArticles(articles).filter((article) => article.category === category);
 
 export const relatedCalculators = (calculator: Calculator, limit = 6) =>
   (calculator.relatedCalculators.length
@@ -30,11 +31,11 @@ export const relatedArticlesForCalculator = (calculator: Calculator, limit = 4) 
     ? calculator.relatedArticles
         .map((slug) => articles.find((article) => article.slug === slug))
         .filter((article): article is Article => Boolean(article))
-    : articles.filter((article) => article.relatedCalculator === calculator.slug || article.category === calculator.category)
+    : indexableArticles(articles).filter((article) => article.relatedCalculator === calculator.slug || article.category === calculator.category)
   ).slice(0, limit);
 
 export const relatedArticles = (article: Article, limit = 6) =>
-  articles.filter((item) => item.category === article.category && item.slug !== article.slug).slice(0, limit);
+  indexableArticles(articles).filter((item) => item.category === article.category && item.slug !== article.slug).slice(0, limit);
 
 export const allRoutes = () => [
   "/",
@@ -49,6 +50,6 @@ export const allRoutes = () => [
   "/editorial-policy/",
   ...categories.map((category) => `/calculators/${category.slug}/`),
   ...calculators.map((calculator) => `/calculators/${calculator.category}/${calculator.slug}/`),
-  ...articles.map((article) => `/articles/${article.slug}/`),
+  ...indexableArticles(articles).map((article) => `/articles/${article.slug}/`),
   ...glossary.map((term) => `/glossary/${term.slug}/`),
 ];

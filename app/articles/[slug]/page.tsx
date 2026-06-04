@@ -5,6 +5,7 @@ import { AdSlot } from "@/components/AdSlot";
 import { AuthorBox } from "@/components/AuthorBox";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { articles } from "@/data/articles";
+import { isIndexableArticleSlug } from "@/lib/article-quality";
 import { calculators } from "@/data/calculators";
 import { site } from "@/data/site";
 import { articleCopy } from "@/lib/article-copy";
@@ -21,10 +22,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const article = getArticle(slug);
   if (!article) return {};
   const path = `/articles/${article.slug}/`;
+  const shouldIndexArticle = isIndexableArticleSlug(article.slug);
   return {
     title: article.seoTitle,
     description: article.metaDescription,
     alternates: { canonical: path },
+    robots: shouldIndexArticle ? { index: true, follow: true } : { index: false, follow: true },
     openGraph: { title: article.seoTitle, description: article.metaDescription, type: "article", url: path },
     twitter: { title: article.seoTitle, description: article.metaDescription },
   };

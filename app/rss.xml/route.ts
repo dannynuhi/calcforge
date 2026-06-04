@@ -1,10 +1,11 @@
 import { articles } from "@/data/articles";
+import { indexableArticles } from "@/lib/article-quality";
 import { site } from "@/data/site";
 
 export const dynamic = "force-static";
 
 export function GET() {
-  const items = articles.slice(0, 50).map((article) => `
+  const items = indexableArticles(articles).slice(0, 50).map((article) => `
     <item>
       <title><![CDATA[${article.title}]]></title>
       <link>${new URL(`/articles/${article.slug}/`, site.url)}</link>

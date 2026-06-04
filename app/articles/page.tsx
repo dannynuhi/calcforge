@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { CardGrid } from "@/components/CardGrid";
 import { articles } from "@/data/articles";
+import { indexableArticles } from "@/lib/article-quality";
 
 export const metadata: Metadata = {
   title: "Guides",
@@ -17,7 +18,7 @@ export default function ArticlesPage() {
         <p className="mt-3 max-w-3xl text-lg leading-8 text-zinc-700 dark:text-zinc-300">Short, useful articles that explain formulas, assumptions, and planning methods before you use a calculator result.</p>
       </section>
       <div className="mt-8">
-        <CardGrid items={articles.map((article) => ({ href: `/articles/${article.slug}/`, title: article.title, description: article.description, badge: "Guide", cta: "Read guide" }))} />
+        <CardGrid items={indexableArticles(articles).map((article) => ({ href: `/articles/${article.slug}/`, title: article.title, description: article.description, badge: "Guide", cta: "Read guide" }))} />
       </div>
     </main>
   );

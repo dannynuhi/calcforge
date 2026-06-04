@@ -3,6 +3,7 @@ import Link from "next/link";
 import { AdSlot } from "@/components/AdSlot";
 import { CardGrid } from "@/components/CardGrid";
 import { articles } from "@/data/articles";
+import { indexableArticles } from "@/lib/article-quality";
 import { calculators } from "@/data/calculators";
 import { categories } from "@/data/categories";
 
@@ -150,7 +151,7 @@ export default function HomePage() {
         <h2 className="text-2xl font-bold">Featured guides</h2>
         <p className="mt-2 max-w-3xl text-zinc-700 dark:text-zinc-300">Short explanations that help you check assumptions before using a result for planning.</p>
         <div className="mt-6">
-          <CardGrid items={articles.slice(0, 6).map((article) => ({ href: `/articles/${article.slug}/`, title: article.title, description: article.description, badge: "Guide", cta: "Read guide" }))} />
+          <CardGrid items={indexableArticles(articles).slice(0, 6).map((article) => ({ href: `/articles/${article.slug}/`, title: article.title, description: article.description, badge: "Guide", cta: "Read guide" }))} />
         </div>
       </section>
     </main>
